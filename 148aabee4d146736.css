@@ -1,12 +1,16 @@
+@charset "UTF-8";
 @import "onetrust_override.css";
 
 /* ✅ RESET button ليصبح مثل a */
 button.button {
-  all: unset; /* حذف كل ستايلات button الافتراضية */
+  all: unset;
+  display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
+  -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   padding: 0;
@@ -24,6 +28,13 @@ button.button {
   background-size: 100% 100%;
   background-color: transparent;
   cursor: pointer;
+  font-family: inherit;
+}
+
+/* Accessibility */
+button.button:focus-visible {
+  outline: 2px solid #4D90FE;
+  outline-offset: 2px;
 }
 
 button.button:before {
@@ -54,6 +65,8 @@ button.button span {
   transform: translateY(-2px);
 }
 
+/* ✅ باقي CSS كما هو */
+/* ... rest of your CSS remains the same ... */
 /* ✅ باقي CSS كما هو */
 main {
   font-size: 18px;
