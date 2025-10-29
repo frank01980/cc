@@ -19,7 +19,7 @@ button.button {
   text-shadow: 0 -2px #000, 0 0 #000, 0 2px #000, 0 4px #000,
                -1px -1px #000, 1px -1px #000, 1px 0 #000, -1px 0 #000,
                1px 1px #000, -1px 1px #000, 1px 2px #000, -1px 2px #000;
-  background: url(../images/center.png);
+  background: url(https://link.clashroyale.com/images/game/center.png);
   background-repeat: repeat-x;
   background-size: 100% 100%;
   background-color: transparent;
@@ -28,7 +28,7 @@ button.button {
 
 button.button:before {
   left: -12px;
-  background-image: url(../images/left.png);
+  background-image: url(https://link.clashroyale.com/images/game/left.png);
 }
 
 button.button:after,
@@ -43,7 +43,7 @@ button.button:before {
 
 button.button:after {
   right: -12px;
-  background-image: url(../images/right.png);
+  background-image: url(https://link.clashroyale.com/images/right.png);
 }
 
 button.button span {
@@ -58,7 +58,7 @@ button.button span {
 main {
   font-size: 18px;
   color: #fff;
-  background-image: url(../images/background.jpg);
+  background-image: url(https://link.clashroyale.com/images/background.jpg);
   background-size: cover;
 }
 
@@ -67,8 +67,8 @@ main .language-dropdown {
   -webkit-text-stroke-width: 0;
   text-shadow: none !important;
   background-color: rgba(0,0,0,.2) !important;
-  background-image: url(../images/language-globe-white.svg),
-                    url(../images/language-caret-white.svg) !important;
+  background-image: url(https://link.clashroyale.com/images/common/language-globe-white.svg),
+                    url(https://link.clashroyale.com/images/common/language-caret-white.svg) !important;
 }
 
 main .contents > a {
@@ -91,7 +91,7 @@ main .deco-section img {
 
 @font-face {
   font-family: CocJapan;
-  src: url(../fonts/jp-bold.woff2);
+  src: url(https://link.clashroyale.com/fonts/game/jp-bold.woff2);
   font-weight: 700;
 }
 
@@ -101,7 +101,7 @@ html:lang(jp) button.button {
 
 @font-face {
   font-family: CocKorea;
-  src: url(../fonts/kr-bold.woff2);
+  src: url(https://link.clashroyale.com/fonts/game/kr-bold.woff2);
   font-weight: 700;
 }
 
@@ -111,7 +111,7 @@ html:lang(kr) button.button {
 
 @font-face {
   font-family: CocChina;
-  src: url(../fonts/cn-bold.woff2);
+  src: url(https://link.clashroyale.com/fonts/game/cn-bold.woff2);
   font-weight: 700;
 }
 
