@@ -43,7 +43,7 @@ button.button:before {
 
 button.button:after {
   right: -12px;
-  background-image: url(https://link.clashroyale.com/images/right.png);
+  background-image: url(https://link.clashroyale.com/images/game/right.png);
 }
 
 button.button span {
@@ -58,7 +58,7 @@ button.button span {
 main {
   font-size: 18px;
   color: #fff;
-  background-image: url(https://link.clashroyale.com/images/background.jpg);
+  background-image: url(https://link.clashroyale.com/images/game/background.jpg);
   background-size: cover;
 }
 
